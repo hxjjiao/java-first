@@ -15,6 +15,6 @@ public class Milk {
     //净含量
     private int netContent;
     //包装
-    private String package;
+    private String packages;
 
 }
