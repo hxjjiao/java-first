@@ -214,16 +214,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523799587566</updated>
-      <workItem from="1523799592842" duration="6278000" />
+      <workItem from="1523799592842" duration="6524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6278000" />
+    <option name="totallyTimeSpent" value="6524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="212" y="23" width="1147" height="857" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -234,12 +233,12 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.500994" side_tool="true" weight="0.32867134" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49900597" weight="0.24736843" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49900597" visible="true" weight="0.24736843" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23710407" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23710407" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
