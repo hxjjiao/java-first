@@ -1,5 +1,5 @@
 import java.util.Date;
-
+import java.util.Calendar;
 /**
  * 矿泉水
  */
@@ -9,12 +9,26 @@ public class MineralWater {
     //产地
     private String origin;
     //保质期
-    private Date expirationDate;
+    private int expirationDate;
     //净含量
     private int netContent;
     //包装方式
     private String kindOfPackage;
+    //生产日期
+    private Date productionDate;
 
+    public MineralWater(){
+
+    }
+
+    public MineralWater(String brand,String origin,int expirationDate,int netContent,String kindOfPackage,Date productionDate){
+        this.brand=brand;
+        this.origin=origin;
+        this.expirationDate=expirationDate;
+        this.netContent=netContent;
+        this.kindOfPackage=kindOfPackage;
+        this.productionDate=productionDate;
+    }
     //品牌写入
     public void setBrand(String brand){
         this.brand=brand;
@@ -36,12 +50,12 @@ public class MineralWater {
     }
 
     //保质期写入
-    public void setExpirationDate(Date expirationDate) {
+    public void setExpirationDate(int expirationDate) {
         this.expirationDate = expirationDate;
     }
 
     //保质期读取
-    public Date getExpirationDate(){
+    public int getExpirationDate(){
         return this.expirationDate;
     }
 
@@ -65,5 +79,16 @@ public class MineralWater {
 
     public String getKindOfPackage() {
         return kindOfPackage;
+    }
+
+    //生产日期写入
+
+    public Date getProductionDate() {
+        return productionDate;
+    }
+
+    //生产日期读取
+    public void setProductionDate(Date productionDate) {
+        this.productionDate = productionDate;
     }
 }
