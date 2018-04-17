@@ -16,4 +16,43 @@ public class RunningMachine {
     private int maxCapacity;
 
 
+    public Date getPublishTime() {
+        return publishTime;
+    }
+
+    public void setPublishTime(Date publishTime) {
+        this.publishTime = publishTime;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public int getMaxCapacity() {
+        return maxCapacity;
+    }
+
+    public void setMaxCapacity(int maxCapacity) {
+        this.maxCapacity = maxCapacity;
+    }
 }
