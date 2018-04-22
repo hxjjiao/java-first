@@ -29,6 +29,10 @@ public class Bike {
     //前叉类型
     private String frontForkType;
 
+    public Bike(String brand){
+        this.brand=brand;
+    }
+
     public String getBrand() {
         return brand;
     }
