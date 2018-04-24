@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1f517a5d-c402-4ba0-b314-18d7ed1fbac2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestWeather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestTodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Todo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/uml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/uml.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,20 +69,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestWeather.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestWeather.java">
+      <file leaf-file-name="Todo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Todo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="375">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uml.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uml.xml">
+      <file leaf-file-name="TestTodo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TestTodo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="63" selection-start-column="63" selection-end-column="63" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestWeather.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestWeather.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -258,6 +275,8 @@
         <option value="$PROJECT_DIR$/src/Date.java" />
         <option value="$PROJECT_DIR$/src/Weather.java" />
         <option value="$PROJECT_DIR$/src/TestWeather.java" />
+        <option value="$PROJECT_DIR$/src/ToDo.java" />
+        <option value="$PROJECT_DIR$/src/TestTodo.java" />
       </list>
     </option>
   </component>
@@ -319,13 +338,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestWeather">
+  <component name="RunManager" selected="Application.TestTodo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="java-first" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="TestTodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestTodo" />
+      <module name="java-first" />
     </configuration>
     <configuration name="TestWeather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestWeather" />
@@ -349,9 +372,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestWeather" />
+      <item itemvalue="Application.TestTodo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTodo" />
         <item itemvalue="Application.TestWeather" />
         <item itemvalue="Application.Main" />
       </list>
@@ -367,15 +392,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523799587566</updated>
-      <workItem from="1523799592842" duration="28950000" />
+      <workItem from="1523799592842" duration="30904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28950000" />
+    <option name="totallyTimeSpent" value="30904000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="23" width="1301" height="845" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -611,6 +637,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -630,10 +663,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestWeather.java">
+    <entry file="file://$PROJECT_DIR$/src/Todo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestTodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
